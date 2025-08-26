@@ -1,4 +1,4 @@
-package main.java.com.bigdious.dn.data.helper;
+package com.bigdious.tamable_endermen.data.helper;
 
 import com.google.common.collect.ImmutableList;
 import org.jetbrains.annotations.Nullable;

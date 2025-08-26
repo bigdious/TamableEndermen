@@ -1,6 +1,6 @@
-package main.java.com.bigdious.dn.data.helper;
+package com.bigdious.tamable_endermen.data.helper;
 
-import com.bigdious.tamable_endermen.DN;
+import com.bigdious.tamable_endermen.TamableEndermen;
 import com.google.common.collect.ImmutableList;
 import com.google.gson.JsonObject;
 import net.minecraft.data.CachedOutput;
@@ -13,13 +13,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
-public abstract class DNLangProvider extends LanguageProvider {
+public abstract class TELangProvider extends LanguageProvider {
 
 	private final PackOutput output;
 	public final Map<String, String> upsideDownEntries = new HashMap<>();
 
-	public DNLangProvider(PackOutput output) {
-		super(output, DN.MODID, "en_us");
+	public TELangProvider(PackOutput output) {
+		super(output, TamableEndermen.MODID, "en_us");
 		this.output = output;
 	}
 
@@ -40,7 +40,7 @@ public abstract class DNLangProvider extends LanguageProvider {
 		//generate en_ud file
 		JsonObject upsideDownFile = new JsonObject();
 		this.upsideDownEntries.forEach(upsideDownFile::addProperty);
-		futuresBuilder.add(DataProvider.saveStable(cache, upsideDownFile, this.output.getOutputFolder(PackOutput.Target.RESOURCE_PACK).resolve(DN.MODID).resolve("lang").resolve("en_ud.json")));
+		futuresBuilder.add(DataProvider.saveStable(cache, upsideDownFile, this.output.getOutputFolder(PackOutput.Target.RESOURCE_PACK).resolve(TamableEndermen.MODID).resolve("lang").resolve("en_ud.json")));
 
 		return CompletableFuture.allOf(futuresBuilder.build().toArray(CompletableFuture[]::new));
 	}

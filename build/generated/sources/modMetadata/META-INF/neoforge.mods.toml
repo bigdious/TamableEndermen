@@ -3,28 +3,25 @@ loaderVersion = "[4,)"
 license = "MIT license"
 
 [[mods]]
-modId = "dn"
-version = "1.0.3"
-displayName = "Display Notches"
+modId = "tamable_endermen"
+version = "1.0.1"
+displayName = "Tamable Endermen"
 logoFile = "logo.png"
 logoBlur = false
 authors = "bigdious"
-description = '''Item Frames but reliable, beautiful and loyal.'''
-itemIcon = "dn:display_notch"
+description = ''''''
 
-[[dependencies.dn]]
+[[dependencies.tamable_endermen]]
 modId = "neoforge"
 type = "required"
 versionRange = "[21.1.72,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.dn]]
+[[dependencies.tamable_endermen]]
 modId = "minecraft"
 type = "required"
 versionRange = "[1.21.1]"
 ordering = "NONE"
 side = "BOTH"
 
-[[mixins]]
-config = "dn.mixins.json"

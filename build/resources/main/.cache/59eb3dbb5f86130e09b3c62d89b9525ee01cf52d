@@ -1,18 +1,2 @@
-// 1.21.1	2025-05-09T19:36:23.6207658	Loot Tables
-ad7f77023110a366032362b8e973814cdbe385e3 data/dn/loot_table/blocks/blue_display_notch.json
-4422092f1eda558a1d7b77ccf178e1a0550721b8 data/dn/loot_table/blocks/brown_display_notch.json
-2b1835dda7d2b0ff7f7285885f8ac20fd8073fd1 data/dn/loot_table/blocks/cyan_display_notch.json
-c21c2c8080dbd2c3ec892b66ce8e32508da84097 data/dn/loot_table/blocks/display_notch.json
-39672385a9712ee2603208ba6bf278f25a52282b data/dn/loot_table/blocks/gray_display_notch.json
-24acef7880905f1084ba7a9e2a1efd07ace233cb data/dn/loot_table/blocks/green_display_notch.json
-317e86d1a72e68353684e9e166ed7acd95c4a01b data/dn/loot_table/blocks/invisible_display_notch.json
-38c9f4f83c3ae5372df052aa5efd4b407e3cb3d8 data/dn/loot_table/blocks/light_blue_display_notch.json
-0f089a7a3376c7c19a5d205db81220c6c39ec38c data/dn/loot_table/blocks/light_gray_display_notch.json
-0bf87b9d2c6f7a4443c73cc8d3b4836491753a14 data/dn/loot_table/blocks/lime_display_notch.json
-371130103a7a93035ad05d9a4f0ea8ffe48f3d2a data/dn/loot_table/blocks/magenta_display_notch.json
-f4f0ccff2bab82b2be1ab5dbc22186054559978d data/dn/loot_table/blocks/orange_display_notch.json
-e2f9bc979edc2de4461dc5047774aa338aa2d3bc data/dn/loot_table/blocks/pink_display_notch.json
-ed2b4448363522a0954b25b60f96809ccad2b6f3 data/dn/loot_table/blocks/purple_display_notch.json
-1569d96ec49884272fdca0ebec11104a55870b48 data/dn/loot_table/blocks/red_display_notch.json
-303e99fec8043b6ea2fe3d8606ee7c24f1b78f0b data/dn/loot_table/blocks/white_display_notch.json
-e35492dd4720c05ff725aa7e1bd21d8886c3f9b6 data/dn/loot_table/blocks/yellow_display_notch.json
+// 1.21.1	2025-08-25T22:30:02.2874962	Loot Tables
+139ea9e295d6ae4f0072d689365ddafe60d6ad76 data/tamable_endermen/loot_table/entities/tamed_enderman.json

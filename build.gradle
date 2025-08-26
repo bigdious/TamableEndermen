@@ -34,7 +34,7 @@ version = mod_version
 group = mod_group_id
 
 base {
-	archivesName = 'DisplayNotches-' + project.minecraft_version
+	archivesName = 'Tamable Endermen-' + project.minecraft_version
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
@@ -111,7 +111,7 @@ dependencies {
 tasks.named('jar', Jar).configure {
 	manifest {
 		attributes([
-			"Specification-Title"     : "dn",
+			"Specification-Title"     : "tamable_endermen",
 			"Specification-Vendor"    : "bigdious",
 			"Specification-Version"   : "1",
 			"Implementation-Title"    : project.name,

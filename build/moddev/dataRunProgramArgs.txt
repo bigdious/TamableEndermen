@@ -21,9 +21,9 @@ C:\\Users\\bigdi\\.gradle\\caches\\neoformruntime\\assets
 
 # User Supplied Program Arguments
 --mod
-dn
+tamable_endermen
 --all
 --output
-C:\\Users\\bigdi\\IdeaProjects\\DisplayNotches\\src\\generated\\resources
+C:\\Users\\bigdi\\IdeaProjects\\TamableEndermen\\src\\generated\\resources
 --existing
-C:\\Users\\bigdi\\IdeaProjects\\DisplayNotches\\src\\main\\resources
+C:\\Users\\bigdi\\IdeaProjects\\TamableEndermen\\src\\main\\resources

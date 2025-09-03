@@ -205,6 +205,11 @@ public class TamedEnderman extends EnderMan implements OwnableEntity {
 	}
 
 	@Override
+	public boolean removeWhenFarAway(double dist) {
+		return false;
+	}
+
+	@Override
 	public @Nullable UUID getOwnerUUID() {
 		return this.OwnerUUID;
 	}

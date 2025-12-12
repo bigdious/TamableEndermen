@@ -4,7 +4,7 @@ license = "MIT license"
 
 [[mods]]
 modId = "tamable_endermen"
-version = "1.0.1"
+version = "1.0.0"
 displayName = "Tamable Endermen"
 logoFile = "logo.png"
 logoBlur = false

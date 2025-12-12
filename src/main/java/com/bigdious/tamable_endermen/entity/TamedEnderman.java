@@ -498,6 +498,11 @@ public class TamedEnderman extends EnderMan implements OwnableEntity {
 		}
 	}
 
+	@Override
+	protected boolean shouldDespawnInPeaceful() {
+		return false;
+	}
+
 	static {
 		DATA_FLAGS_ID = SynchedEntityData.defineId(TamedEnderman.class, EntityDataSerializers.BYTE);
 		DATA_OWNERUUID_ID = SynchedEntityData.defineId(TamedEnderman.class, EntityDataSerializers.OPTIONAL_UUID);
